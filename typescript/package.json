@@ -1,0 +1,23 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "description": "Shows how to get the current price of bitcoin",
+  "main": "dist/index.js",
+  "source":"src/index.ts",
+  "scripts": {
+    "build":"parcel build",
+    "watch":"parcel watch",
+    "start":"npm run build && node dist/index.js"
+  },
+  "author": "Uppso Ltd",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "axios": "^0.26.1",
+    "moment": "^2.29.1",
+    "yup": "^0.32.11"
+  }
+}
